@@ -1,0 +1,27 @@
+# 将所有文本文件（auto-detect）在检出时转换为本地换行符（CRLF on Win, LF on Mac/Linux）
+# 并在提交时转换为 LF
+* text=auto
+
+# 明确指定哪些文件是文本（即使 Git 没检测出来）
+*.c text
+*.h text
+*.cpp text
+*.py text
+*.js text
+*.md text
+*.json text
+*.xml text
+*.html text
+*.css text
+
+# 明确指定哪些文件是二进制（Binary），Git 永远不要去修改它们的换行符
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.dll binary
+*.exe binary
+*.a binary
+*.so binary
+*.lib binary
