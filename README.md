@@ -61,7 +61,23 @@ Startup_Study_Diary/
 │   ├── Phase3/Code/
 │   ├── Phase4/Code/
 │   └── Phase5/Code/
-├── Sheep/           # Sheep 的工作区（结构同 StudentA）
+├── Sheep/           # Sheep 的工作区（结构同Peach）
+│   ├── README.md
+│   ├── LearningLog.md
+│   ├── Phase1/Code/
+│   ├── Phase2/Code/
+│   ├── Phase3/Code/
+│   ├── Phase4/Code/
+│   └── Phase5/Code/
+├── Belief/           # Belief 的工作区（结构同Peach）
+│   ├── README.md
+│   ├── LearningLog.md
+│   ├── Phase1/Code/
+│   ├── Phase2/Code/
+│   ├── Phase3/Code/
+│   ├── Phase4/Code/
+│   └── Phase5/Code/
+├── Fish/           # Fish 的工作区（结构同Peach）
 │   ├── README.md
 │   ├── LearningLog.md
 │   ├── Phase1/Code/
@@ -143,7 +159,7 @@ git push origin main
 1. **Clone 本仓库：**
    
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/LT-0I/Study_Startup_Diary.git
    cd Startup_Study_Diary
    ```
    
@@ -175,4 +191,4 @@ git push origin main
 **祝学习顺利！ Happy Learning! 🚀**
 
 
-20251012 Tiger@NUAA
+20251026 Tiger@NUAA
