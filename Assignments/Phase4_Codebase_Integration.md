@@ -1,4 +1,4 @@
-# Phase 4: 理解 `sl_sensor` 与集成思路
+Phase 4: 理解 `sl_sensor` 与集成思路
 
 ## 阶段学习目标
 
@@ -228,11 +228,7 @@ rostopic bw <topic_name>
 - 集成方式：ROS + MAVROS + PX4
 
 ## 2. 数据流设计
-
-```
 [传感器] → [sl_sensor节点] → [数据处理] → [TF变换] → [MAVROS] → [PX4]
-```
-
 详细说明：
 - sl_sensor 输出的数据类型：
 - 需要的中间处理节点：
@@ -265,9 +261,7 @@ rostopic bw <topic_name>
 - 转换关系：
 
 ### 4.2 TF 树设计
-```
 map → odom → base_link → sl_sensor_frame
-```
 
 ### 4.3 转换实现
 - 使用 `tf2_ros` 进行坐标变换
@@ -297,7 +291,6 @@ map → odom → base_link → sl_sensor_frame
 - [ ] 在仿真中验证集成
 - [ ] 调优参数
 ```
-
 ---
 
 ## 学习建议
